@@ -1,0 +1,20 @@
+【構文】
+public class ●● {
+
+  public static void main(String[] args) { 
+  } 
+}
+【表示】
+System.out.println(〇〇);
+--------------------------------------
+【コマンドプロンプト】
+cd C:\xampp\htdocs\LetsEngineer\curriculum\JAVA_STUDY
+
+〇コンソール
+javac ファイル名.javac
+
+〇JAVAの実行
+java ファイル名
+
+〇ファイルの中身を確認
+dir
