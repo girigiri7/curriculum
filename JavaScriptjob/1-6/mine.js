@@ -6,3 +6,13 @@ for(let i=0;i<4;i++){
     console.log(scores[i]+"偶数です");
   }
 }
+
+//問2：ガソリンとナンバーのプロパティを持った「carオブジェクト」を作成して、ガソリンとナンバーを出力してください。
+
+let car={
+  gass:20.5,
+  num:1234,
+};
+
+console.log('ガソリンは'+car['gass']+'です');
+console.log('ナンバーは'+car['num']+'です');
