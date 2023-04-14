@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    th, td {
+        padding : 10px;
+    }
+</style>
+</head>
+<body>
+  <select onchange="changeLang()" id="char">
+    <option id="select">選択してください</option>
+    <option id="selected_jpn">日本語</option>
+    <option id="selected_en">English</option>
+    <option id="selected_all">全て表示</option>
+</select>
+<table>
+    <tr>
+        <th>日本</th>
+        <td>こんにちは</td>
+        <td>ありがとう</td>
+        <td>さようなら</td>
+    </tr>
+    <tr>
+        <th>English</th>
+        <td>Hello</td>
+        <td>Thank you</td>
+        <td>Good Bye</td>
+    </tr>
+</table>
+
+<script>
+    //問1:実際の開発現場で 「プルダウンの選択項目によって、表示される項目を切り替える処理を追加する」 というタスクが振られたという場合を想定して解いてみてください。
+
+    //【要件】：プルダウンで「日本語」なら日本語の文字だけ、「English」なら英語だけ、「全て表示」が選択されたら日本語と英語が表示される。 ※元の問題文（ソースコード）を消さない限り、idやクラス、関数を新たに作成して実装しても構いません。
+    //①onchangeで使用されている関数の中身を実装してください。
+
+    //プルダウンメニューの値を取得(id”char”)
+    let char=document.getElementById('char');
+      
+</script>
+  <!-- <script src="js/mine.js"></script> -->
+</body>
+</html>
